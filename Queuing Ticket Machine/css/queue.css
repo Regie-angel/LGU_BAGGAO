@@ -1,0 +1,138 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.header{
+    height: 100%;
+    padding: 2px;
+    color: white;
+    text-align: center;
+    letter-spacing: 2px;
+    background-color: blue;
+}
+
+.header h1{
+    font-size: 20px;
+}
+
+
+/*index*/
+
+.content{
+    padding: 110px;
+    text-align: center;
+}
+
+.content img{
+    height: 160px;
+    border-radius: 50%;
+}
+
+.content p{
+    height: 100%;
+    color: white;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-bottom: 126px;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.content a{
+    border-radius: 25px;
+    text-decoration: none;
+    border: 1px solid white;
+    color: white;
+    padding: 10px 30px 10px 30px;
+    background-color: rgb(0, 72, 255);
+}
+
+.content a:hover{
+    background-image: linear-gradient(rgb(0, 81, 255),rgb(4, 49, 127));
+}
+
+.footer{
+    height: 100%;
+    padding: 3.5px;
+    color: white;
+    text-align: center;
+    letter-spacing: 2px;
+    background-color: blue;
+}
+
+.footer marquee p{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 12px;
+}
+
+.footer marquee span{
+    padding-left: 250px;
+    padding-right: 350px;
+}
+
+.footer a{
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.queue-content{
+    padding: 10px;
+    text-align: center;
+}
+
+.queue-content h1{
+    margin: 20px;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+   
+.queue-content ul{
+    margin-left: -40px;
+}
+
+.queue-content ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 40px;
+    margin: 12px;
+    width: 100px;
+    font-size: 14px;
+    background-color: blue;
+}
+
+.queue-content ul li:hover{
+    background-color: rgb(49, 49, 255);
+}
+
+.queue-content ul a{
+
+    font-weight: 900;
+    color: white;
+    text-decoration: none;
+}
+
+.queue-content .back a{
+    float: left;
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    font-size: 14px;
+    margin-left: 14px;
+    font-weight: 900;
+    background-color: blue;
+}
+
+.queue-content .back a:hover{
+    background-color: rgb(49, 49, 255);
+}
+

@@ -1,0 +1,285 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    height: 100vh;
+    overflow: hidden;
+    background-size: cover;
+    background-position: fixed;
+    background-repeat: no-repeat;
+}
+
+/*header*/
+
+.header {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.503),rgba(0, 72, 255, 0.628));
+    padding: 2px;
+    text-align: left;
+    color: White;
+    }
+
+.header h1 img{
+    height: 60px;
+    border-radius: 50%; 
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+.header h1 a{
+    border-radius: 2px;
+    color: white;
+    padding: 7px;
+    color: white;
+    top: 10px;
+    right: 10px;
+    position: absolute;
+    font-size: 16px;
+    text-decoration: none;
+    background-image: linear-gradient(rgb(160, 69, 69),rgb(255, 0, 0));
+
+}
+
+.header h1 a:hover{
+    background-image: linear-gradient(rgb(112, 52, 52),rgb(207, 0, 0));
+}
+
+/*navigation*/
+
+.content .sidenav {
+    height: 83%;
+    width: 250px;
+    position: fixed;
+    z-index: 999;
+    right: 0;
+    background-image: linear-gradient(rgba(0, 72, 255, 0.656),rgba(0, 0, 0, 0.616));
+    padding: 10px;
+    }
+
+.sidenav a{
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    display: block;
+    }
+
+.sidenav a:hover {
+    border-bottom: 1px solid;
+    background-image: linear-gradient(rgb(59, 167, 255),rgb(0, 128, 255));
+    }
+
+.sidenav .active{
+    border-bottom: 1px solid;
+    background-image: linear-gradient(rgb(59, 167, 255),rgb(0, 128, 255));
+    }
+
+/*feedback*/
+
+.content .feedback{
+    left: 0;
+    color: black;
+    padding: 100px;
+    width: 69.4%;
+    height: 58.9%;
+    position: fixed;
+    z-index: 999;
+    text-align: center;
+    overflow-y: scroll;
+    background-color: rgba(255, 255, 255, 0.623);
+}
+
+.content .feedback .close{
+    border-radius: 2px;
+    padding: 4px;
+    color: white;
+    top: 105px;
+    right: 105px;
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+    background-image: linear-gradient(rgb(160, 69, 69),rgb(255, 0, 0));
+}
+
+.content .feedback .close:hover{
+    background-image: linear-gradient(rgb(112, 52, 52),rgb(207, 0, 0));
+}
+
+.content .feedback .table{
+    border: black 1px solid;
+    width: 100%;
+}
+
+.content .feedback .table .header{
+    font-size: 38px;
+    padding: 14px;
+    font-weight: 600;
+    border: black 1px solid;
+}
+
+.content .feedback .table .datepicker{
+    text-align: left;
+    padding: 10px;
+    height: 50px;
+}
+
+.content .feedback .table .datepicker input{
+    margin-right: 6px;
+    padding: 4px;
+    background-color: transparent;
+}
+
+.content .feedback .table .datepicker select{
+    margin-right: 2px;
+    padding: 4px;
+    width: 150px;
+    border: black 2px solid;
+    background-color: transparent;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.content .feedback .table .datepicker span{
+    text-align: center;
+    float: right;
+    margin-right: 2px;
+    height: 20px;
+    padding: 4px;
+    width: 180px;
+    border: black 2px solid;
+    background-color: transparent;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.content .feedback .table .datepicker .sbmtbtn{
+    color: white;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    padding: 4.4px;
+    width: 100px;
+    background-image: linear-gradient(rgb(0, 102, 255),rgba(72, 144, 251, 0.788));
+}
+
+.content .feedback .table .datepicker .sbmtbtn:hover{
+    background-image: linear-gradient(rgb(0, 58, 146),rgba(31, 120, 255, 0.788));
+}
+
+.content .feedback .table th{
+    padding: 14px;
+    font-weight: 600;
+    border: black 1px solid;
+}
+
+.content .feedback .table td{
+    height: 30px;
+    padding: 6px;
+    font-size: 12px;
+    font-weight: 600;
+    border: black 1px solid;
+}
+
+.content .feedback .table td .view{
+    padding: 2px;
+    color: black;
+    text-decoration: none;
+    float: right;
+    border: black 1px solid;
+}
+
+.content .feedback .table td .view:hover{
+    color: white;
+    background-image: linear-gradient(rgb(0, 58, 146),rgba(31, 120, 255, 0.788));
+}
+ 
+/*Profile*/
+
+.content .profile{
+    left: 0;
+    color: black;
+    padding: 100px;
+    width: 69.4%;
+    height: 58.9%;
+    position: fixed;
+    z-index: 999;
+    text-align: center;
+    overflow-y: scroll;
+    background-color: rgba(255, 255, 255, 0.623);
+}
+
+.content .profile a{
+    border-radius: 2px;
+    padding: 4px;
+    color: white;
+    top: 105px;
+    right: 105px;
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+    background-image: linear-gradient(rgb(160, 69, 69),rgb(255, 0, 0));
+}
+
+.content .profile a:hover{
+    background-image: linear-gradient(rgb(112, 52, 52),rgb(207, 0, 0));
+}
+
+.content .profile .edit{
+    border-radius: 2px;
+    padding: 4px;
+    color: white;
+    top: 105px;
+    right: 105px;
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+    background-image: linear-gradient(rgb(194, 138, 16),rgb(255, 145, 0));
+ }
+
+.content .profile .edit:hover{
+    background-image: linear-gradient(rgb(168, 116, 4),rgb(196, 111, 0));
+}
+
+.content .profile .table .upload{
+    border-radius: 2px;
+    padding: 4px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    background-image: linear-gradient(rgb(194, 138, 16),rgb(255, 145, 0));
+ }
+
+.content .profile .table .upload:hover{
+    background-image: linear-gradient(rgb(168, 116, 4),rgb(196, 111, 0));
+}
+
+.content .profile .table .editbtn{
+    border-radius: 2px;
+    padding: 4px;
+    color: white;
+    top: 0;
+    right: 0;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    background-image: linear-gradient(rgb(194, 138, 16),rgb(255, 145, 0));
+}
+
+.content .profile .table .editbtn:hover{
+    background-image: linear-gradient(rgb(168, 116, 4),rgb(196, 111, 0));
+}
+
+.content .profile .table{
+    border: black 1px solid;
+    width: 100%;
+}
+
+.content .profile .table th{
+    padding: 14px;
+    font-weight: 600;
+    border: black 1px solid;
+}
+
+.content .profile .table td{
+    text-align: center;
+    padding: 14px;
+    font-weight: 600;
+    border: black 1px solid;
+}

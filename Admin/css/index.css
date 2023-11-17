@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    height: 100vh;
+    overflow: hidden;
+    background-size: cover;
+    background-position: fixed;
+    background-repeat: no-repeat;
+}
+
+.content{
+    padding: 100px;
+    text-align: center;
+}
+
+.content img{
+    height: 100px;
+    border-radius: 50%;
+}
+
+.content p{
+    height: 100%;
+    color: white;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.content form{
+    width: 25%;
+    padding: 70px;
+    border-radius:10px;
+    background-image: linear-gradient(rgba(47, 130, 255, 0.671),rgba(0, 55, 137, 0.776));
+}
+
+.content form .input{
+    text-align: center;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 60.2%;
+    color: black;
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: transparent;
+    background-image: linear-gradient(rgb(255, 255, 255),rgba(255, 255, 255, 0.498));
+}
+
+.content form .sbmtbtn{
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 63.9%;
+    padding: 5px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: transparent;
+    background-image: linear-gradient(rgb(78, 149, 255),rgba(31, 120, 255, 0.788));
+}
+
+.content form .sbmtbtn:hover{
+    background-image: linear-gradient(rgb(0, 102, 255),rgba(72, 144, 251, 0.788));
+}
